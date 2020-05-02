@@ -19,6 +19,13 @@ ul, ol {
     color: #fff;
     text-shadow: none;
 }
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .margin-0{
     margin: 0;
 }
@@ -31,7 +38,8 @@ ul, ol {
     margin-bottom: 0;
 }
 .header-top{
-    background-color: #316DC3 !important;
+    background-color: #316DC3;
+    padding: 5px 0;
 }
 .header-top ul.social-icons  li {
     display: inline-block;
@@ -50,12 +58,7 @@ ul, ol {
     background-color: #316DD9;
     color: #e6e6e6;
 }
-.header-top ul.donate-buttons > li {
-    display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-.header-top ul.donate-buttons > li a{
+.header-top .donate-buttons  a{
     border-radius: 0;
     border-color: #006618;
     font-size: 11px !important;
