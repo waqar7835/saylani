@@ -73,6 +73,9 @@ ol {
   margin-right: auto;
   margin-left: auto;
 }
+.row{
+  justify-content: space-around;
+}
 section > .container,
 section > .container-fluid {
   padding-top: 60px;
@@ -294,7 +297,7 @@ section > .container-fluid {
 #gallery {
   padding-top: 60px;
   padding-bottom: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 #gallery .gallery-item {
   width: 20%;
@@ -302,6 +305,8 @@ section > .container-fluid {
   padding-right: 2px;
   padding-bottom: 2px;
   overflow: hidden;
+  min-width: 200px;
+  margin-bottom: 25px;
 }
 #gallery .gallery-item img {
   max-width: 100%;
@@ -372,7 +377,7 @@ section > .container-fluid {
 }
 .footer-inner{
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 .footer-bottom-inner{
     padding-top: 15px;
@@ -405,6 +410,7 @@ section > .container-fluid {
 }
 .footer-first-section {
     color: #bbb;
+    margin-bottom: 30px;
 }
 #footer .block-title{
     color: #fff;
